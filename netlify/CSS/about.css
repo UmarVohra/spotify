@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: black;
+    color:white;
+}
+.header{
+    text-align: center;
+    text-decoration:underline;
+}
+.company{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 25%;
+    height: 25%;
+}
+.name{
+    align-self: center;
+    font-size: 15rem;
+}
+.h2{
+    color: rgb(103, 208, 103);
+    text-decoration:underline;
+}
+.author{
+    font-weight:900;
+}
+.logos{
+    margin: 20px 0  ;
+    display: flex;
+    font-size:50px;
+    justify-content:center;
+}
+.Contact{
+    margin: 50px;
+}
+a{
+    color:white;
+}
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: black;
+}
+.arrow{
+    position: absolute;
+    margin: 0;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.134);
+}
+.arrow:hover{
+    background-color: rgba(255, 255, 255, 0.387);
+}
+
+@media screen and (max-width:480px){
+    body{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .company{
+        justify-content: center;
+    }
+    .name{
+        font-size: 4rem;
+    }
+    .logos{
+        width: 100%;
+        
+    }
+    .Contact{
+        margin: 10px;
+    }
+}
